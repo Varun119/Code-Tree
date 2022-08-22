@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>CodeTree</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <section id="top-container">
+
+    <nav class="navbar bg navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1" style="font-size:1.5rem;">CodeTree</span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav items">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#top-container">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Contact
+                </a>
+                <ul class="dropdown-menu dropdown-menu-light box arrow-top" aria-labelledby="navbarDarkDropdownMenuLink">
+                  <li class="dpd"><a class="dropdown-item bg-info" href="https://twitter.com/" style="color: #fff">Twitter</a></li>
+                  <li class="dpd"><a class="dropdown-item bg-primary" href="https://www.facebook.com/" style="color: #fff">Facebook</a></li>
+                  <li class="dpd"><a class="dropdown-item bg-danger" href="https://mail.google.com/" style="color: #fff">GMail</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  About
+                </a>
+                <p class="dropdown-menu dropdown-menu-light box arrow-top" aria-labelledby="navbarDarkDropdownMenuLink" style="width: 20rem; padding: 5px;  margin-left: 2px; font-size: 1.125rem; line-height: 1.2;">
+                  This is awesome Website for beginners as this site have all the basic things that a beginners is going to require.
+                </p>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Developer
+                </a>
+                <ul class="dropdown-menu dropdown-menu-light box arrow-top" aria-labelledby="navbarDarkDropdownMenuLink">
+                  <li class="dpd"><a class="dropdown-item bg-dark" href="#" style="color: #fff">Gulshan Sharma</a></li>
+                  <li class="dpd"><a class="dropdown-item bg-dark" href="https://www.linkedin.com/in/varun-kumar-28a81420a" style="color: #fff">Varun Kumar</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <h1 class="head-top">Let's Make Your Coding Journey Easy</h1>
+          <p class="intro">Want to make your Coding Journey easy and don't know from where to start you Coding Journey then you have came to the right place
+            because here we have all the things that you will be going to need in your entire Coding Journey. Most of these resources will make your learning process fun and creative.</p>
+        </div>
+        <div class="col">
+          <img src="head-image.png" alt="head-image">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <section id="mid-container">
+
+    <!-- Vertical navbar -->
+    <div class="vertical-navbar d-flex flex-column bg-dark flex-shrink-0 fixed-top" style="width: 4.5rem; padding-top: 3.5rem;">
+      <ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
+        <li class="nav-item">
+          <span class="nav-link py-3 slide-bar active" title="CodeTree" data-bs-toggle="tooltip" data-bs-placement="right">
+            <i class="fas fa-code fa-2x"></i>
+          </span>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link py-3 slide-bar active" aria-current="page" title="Home" data-bs-toggle="tooltip" data-bs-placement="right">
+            <i class="fas fa-home fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#Language" class="nav-link py-3 slide-bar active" title="Language" data-bs-toggle="tooltip" data-bs-placement="right">
+            <i class="fab fa-codiepie fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#Editor" class="nav-link py-3 slide-bar active" title="Terminal" data-bs-toggle="tooltip" data-bs-placement="right">
+            <i class="fas fa-terminal fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#DSA" class="nav-link py-3 slide-bar active" title="Data Structures" data-bs-toggle="tooltip" data-bs-placement="right">
+            <i class="fas fa-laptop-code fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#CPP" class="nav-link py-3 slide-bar active" title="Competitive Programming" data-bs-toggle="tooltip" data-bs-placement="right">
+            <i class="fab fa-free-code-camp fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+    <!-- End vertical navbar -->
+
+    <div class="page-content">
+      <div class="container-fluid" id="Language">
+        <br>
+        <h1 class="content-head">What is Coding and Why Should You Learn Coding?</h1>
+        <p class="mid-data">Coding or computer programming is writing a set of instructions that a computer understands so it will perform a task.
+          Coding puts children in control of the computer and through experimentation builds mastery in sequencing skills,
+          counting, problem solving, logical thinking, cause and effect, and critical thinking... "<span class="imp">I Know this definition is quite broad.
+            In reality, exactly what we mean by coding will depend on what sort of coding we are referring to..</span>". Coding is has different meaning for different programmer. For example for a Web Developer
+          Coding is a Tool to Build responsive and awesome website for Android Developer a Tool to Build Great Apps and for a Satellite designer a ways program Satellite to perform important tasks.
+          <br /><br>Now question still remains the same that "<span class="imp">Why Should You Learn to Code?</span>" Coding is an exciting new field that presents a world of opportunities for people who are willing to learn. Despite
+          what you may have heard, learning to code isn’t that hard - especially when you compare it to the skills that are required to get the most skilled jobs.
+        </p>
+        <table>
+          <ul>
+            <li class="mid-data"><i class="fas fa-check-double check"></i> <span class="imp">Coding is fun!</span> Imagine having the skills to be able to build your websites from scratch, to be able to create responsive mobile games, and to be able
+              to program data analysis packages.
+              If you learn how to code, you will be able to do all of this and more in a fun, engaging way!
+            </li>
+            <li class="mid-data"><i class="fas fa-check-double check"></i> <span class="imp">Coding will give you valuable skills.</span> Learning how to code for
+              beginners will provide you with enough skills and experience to pursue a career as a coder or programmer.
+            </li>
+            <li class="mid-data"><i class="fas fa-check-double check"></i> <span class="imp">Learning how to code will provide job security.</span> In the same way, being able to pursue a career as a coder will give you a significant amount of job
+              security.
+              Coders and programmers are in demand throughout the modern world, leading to a lot of jobs in the field.
+            </li>
+          </ul>
+        </table>
+
+        <h1 class="content-head">Step One Learn a Language.</h1>
+        <p class="mid-data">
+          There are many Language present for example we have C,C++,C#,JAVA,Python,RUBY,HTML,CSS and JavaScript etc.
+          <span class="imp">Its totally depends on you which language you like the most or find easy or in which Technology you want to work.</span> Different types of programming require different skills. For example, if you want to learn how to
+          code a website, you should
+          learn languages like HTML,CSS,JAVA AND JAVASCRIPT.
+          <br><br>
+        <table>
+          <ul>
+            <li class="mid-data"><i class="fas fa-check-double check"></i> <span class="imp"> C: </span>&nbsp;
+              The C programming language is a <span class="imp">computer programming language that was developed to do system programming for the operating system UNIX</span> and is an imperative programming language.
+              You can find its Documentation at <a class="imp" href="https://www.programiz.com/c-programming">Programiz</a>.
+            </li>
+            <br>
+            <li class="mid-data"><i class="fas fa-check-double check"></i> <span class="imp"> C++: </span>&nbsp; It is an extension to the C language. <span class="imp">C++ gives programmers a high level of control over system resources and memory
+                (Object Oriented
+                Programming).</span>
+              You can find its Documentation at <a class="imp" href="https://www.w3schools.com/cpp/cpp_intro.asp">w3school</a>. C++ plays an important part in well-known operating systems, from MacOS and Windows to mobile operating systems like iOS.
+            </li>
+            <br>
+            <li class="mid-data"><i class="fas fa-check-double check"></i> <span class="imp"> Java: </span>&nbsp;
+              Java is a widely used programming language expressly designed for use in the distributed environment of the internet. <span class="imp">It is the most popular programming language for Android smartphone applications</span> and is also
+              among the most favored for
+              the development of edge devices and the internet of things.
+              You can find its Documentation at <a class="imp" href="https://www.w3schools.com/java/">w3school</a>.
+            </li>
+            <br>
+            <li class="mid-data"><i class="fas fa-check-double check"></i> <span class="imp"> Python: </span>&nbsp; If Java is the king of programming languages, then Python is the queen. It is also super versatile, and it has a lot of different
+              uses.
+              <span class="imp">It is also behind the rise of new technologies like artificial intelligence and machine learning.</span>
+              You can find its Documentation at <a class="imp" href="https://www.w3schools.com/python/default.asp">w3school</a>.
+            </li>
+            <br>
+            <li class="mid-data"><i class="fas fa-check-double check"></i> <span class="imp"> HTML: </span>&nbsp; If you want to get into front-end web development, then you have to learn HTML. <span class="imp">Used for marking up text so that
+                computers can
+                understand it, HTML (or Hypertext Markup Language) is one of the simplest languages</span> to learn and is where a lot of people start when learning how to code for beginners.
+              You can find its Documentation at <a class="imp" href="https://developer.mozilla.org/en-US/docs/Web/HTML">mdnDocs</a>.
+            </li>
+            <br>
+            <li class="mid-data"><i class="fas fa-check-double check"></i> <span class="imp"> CSS: </span>&nbsp; CSS is used almost exclusively alongside HTML to style and format content on webpages. <span class="imp">It allows you to do things like
+                change the color
+                and size of elements, change the position of elements on a webpage</span>, and change the entire layout of a webpage. Like HTML, CSS is used in front-end web developer.
+              You can find its Documentation at <a class="imp" href="https://developer.mozilla.org/en-US/docs/Web/CSS">mdnDocs</a>.
+            </li>
+            <br>
+            <li class="mid-data"><i class="fas fa-check-double check"></i> <span class="imp"> JavaScript: </span>&nbsp; JavaScript is another language that is quite versatile. Although it has historically been a front-end web development language
+              that allowed the creation of interactive elements, <span class="imp">JavaScript is becoming increasingly used for other things - including back-end web development.</span>
+              You can find its Documentation at <a class="imp" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">mdnDocs</a>.
+            </li>
+            <br>
+          </ul>
+        </table>
+        </p>
+      </div>
+      <br>
+
+    </div>
+
+    <div class="page-content">
+      <div class="container-fluid" id="Editor">
+        <h1 class="content-head">Download A Text Editor</h1>
+        <p class="mid-data">
+          Although there are many text editors present for each language and many of them run multiple language. <span class="imp">But some text editors are more
+            good towards a particular language.</span> Some of them text editors are listed below attached with a direct link by to download it.
+        </p>
+        <br>
+        <details close="" class="mid-data">
+          <summary><span class="imp">Text Editors</span></summary>
+          <ol>
+            <li>
+              <a href="https://code.visualstudio.com/" rel="nofollow">VSCode Text Editor</a> - Code editing. Redefined. Free.
+              Built on open source. Runs everywhere.
+            </li>
+            <li>
+              <a href="https://atom.io/" rel="nofollow">Atom</a> - Teletype for Atom makes collaborating on code just as easy as
+              it is to code alone, right from your editor.
+            </li>
+            <li>
+              <a href="https://www.sublimetext.com/" rel="nofollow">Sublime</a> - Sublime Text is a sophisticated text editor
+              for code, markup and prose. You'll love the slick user interface, extraordinary features and amazing performance.
+            </li>
+            <li>
+              <a href="https://notepad-plus-plus.org/" rel="nofollow">Notepad++</a> - Notepad++ is a free (as in “free speech”
+              and also as in “free beer”) source code editor and Notepad replacement that supports several languages. Running in
+              the MS Windows environment, its use is governed by GPL License.
+            </li>
+            <li>
+              <a href="https://www.vim.org/" rel="nofollow">Vim</a> - Vim is a highly configurable text editor for efficiently
+              creating and changing any kind of text. It is included as "vi" with most UNIX systems and with Apple OS X.
+            </li>
+            <li>
+              <a href="http://brackets.io/" rel="nofollow">Brackets</a> - A modern, open source text editor that understands web
+              design.
+            </li>
+          </ol>
+        </details>
+        <br>
+        <p class="mid-data">
+          Now you have the text editor, now you need the compiler for that particular language in order to run your program.
+          So here are some of the tutorials, watching these you can easily download it and can run it comfortabily in your system.
+        </p>
+        <details close="" class="mid-data">
+          <summary><span class="imp">Tutorials for installation of Text Editors and Compilers</span></summary>
+          <ol>
+            <li>
+              <a href="https://youtu.be/0yn7irrHzM8/" rel="nofollow">VSCode Text Editor and MinGW compiler for C/C++</a>
+            </li>
+            <li>
+              <a href="https://youtu.be/o6dT3kAWg6s/" rel="nofollow">Sublime Text Editor and MinGW compiler for C/C++</a>
+            </li>
+            <li>
+              <a href="https://youtu.be/IwImJwo9gQ8?t=200/" rel="nofollow">Java Eclicpse IDE For Java Developers</a>
+            </li>
+            <li>
+              <a href="https://youtu.be/dNFgRUD2w68/" rel="nofollow">Python and VSCode Text Editor</a>
+            </li>
+            <li>
+              <a href="https://youtu.be/VC13MkENVoY/" rel="nofollow">Python and Sublime Text Editor</a>
+            </li>
+            <li>
+              <a href="https://youtu.be/qPEskXv2iu0/" rel="nofollow">Java and Sublime Text Editor</a>
+            </li>
+          </ol>
+        </details>
+      </div>
+    </div>
+
+    <br><br>
+
+    <div class="page-content">
+      <div class="container-fluid" id="DSA">
+        <h1 class="content-head">Step Two Learn DSA</h1>
+        <p class="mid-data">
+          This is the <span class="imp">most most important part of coding</span> because Data structure provides the right way to organize information in the digital space. The data structure is a key component of Computer Science
+          <span class="imp">Data Structures and Algorithms are used to test the analytical skills of the candidates as they are a useful tool to pick out the underlying algorithms in real-world problems and solve them efficiently.
+            Data Structures and Algorithms are the fundamentals of Software Development.</span>
+          DSA helps by improving the processing power of the systems due to the effective utilization of the stored data.
+          The learners can use the concepts of DSA in any programming language of their choice and also learn how to store and manipulate the data in it to get the desired outcome.
+          <span class="imp">If you don’t know DSA well, you will find it challenging to optimize the code and solution for a problem.</span>
+          The profound uses of DSA have made it imperative for all those budding programmers and students to start learning it and succeed in their computer science career. <br>
+          Here we are providing awesome coding and learning resources for everyone. Most of these links will make your learning process fun and creative.
+          These resources will help you become a programmer, challenge you to be better everyday and the best thing about it is that most of it are free.
+        </p>
+        <br>
+        <details open="" class="mid-data">
+          <summary><span class="imp">Learning Resources :)</span></summary>
+          <ol>
+            <li>
+              <!-- <a href="https://youtu.be/0yn7irrHzM8/" rel="nofollow">VSCode Text Editor and MinGW compiler for C/C++</a> -->
+              <details close="">
+                <summary>C</summary>
+                <ul>
+                  <li>
+                    <a href="https://www.geeksforgeeks.org/c-programming-language/" rel="nofollow">About</a>
+                  </li>
+                  <li>
+                    <a href="https://vardhaman.org/wp-content/uploads/2018/12/Computer%20Programming.pdf" rel="nofollow">Notes</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/ASHWIN990/My-Programming-Books/tree/master/C" rel="nofollow">Books</a>
+                  </li>
+                  <li>
+                    <a href="https://youtu.be/XaQ6MIw5LkM" rel="nofollow">Introduction to C tutorial</a>
+                  </li>
+                  <li>
+                    <a href="https://youtu.be/11i8bRojtYk" rel="nofollow">Data Structures in C tutorial</a>
+                  </li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <!-- <a href="https://youtu.be/o6dT3kAWg6s/" rel="nofollow">Sublime Text Editor and MinGW compiler for C/C++</a> -->
+              <details close="">
+                <summary>C++</summary>
+                <ul>
+                  <li>
+                    <a href="https://www.geeksforgeeks.org/c-plus-plus/" rel="nofollow">About</a>
+                  </li>
+                  <li>
+                    <a href="https://www.tutorialspoint.com/cplusplus/cpp_tutorial.pdf" rel="nofollow">Notes</a>
+                  </li>
+                  <li>
+                    <a href="https://www.computer-pdf.com/programming/c-cpp/880-tutorial-learning-c-programming-lanuage.html" rel="nofollow">Books</a>
+                  </li>
+                  <li>
+                    <a href="https://youtu.be/KC47C8sg2zQ" rel="nofollow">Introduction to C++ tutorial</a>
+                  </li>
+                  <li>
+                    <a href="https://youtu.be/z9bZufPHFLU" rel="nofollow">Data Structures in C++ tutorial</a>
+                  </li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <!-- <a href="https://youtu.be/IwImJwo9gQ8?t=200/" rel="nofollow">Java Eclicpse IDE For Java Developers</a> -->
+              <details close="">
+                <summary>Java</summary>
+                <ul>
+                  <li>
+                    <a href="https://www.geeksforgeeks.org/java/" rel="nofollow">About</a>
+                  </li>
+                  <li>
+                    <a href="https://www.geektonight.com/java-programming-notes-pdf/" rel="nofollow">Notes</a>
+                  </li>
+                  <li>
+                    <a href="https://www.geektonight.com/java-programming-notes-pdf/" rel="nofollow">Books</a>
+                  </li>
+                  <li>
+                    <a href="https://www.youtube.com/watch?v=lxja8wBwN0k&list=PLKKfKV1b9e8ps6dD3QA5KFfHdiWj9cB1s" rel="nofollow">Introduction to Java tutorial</a>
+                  </li>
+                  <li>
+                    <a href="https://www.youtube.com/watch?v=6iCHf7OZn6c&list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d" rel="nofollow">Data Structures in Java tutorial</a>
+                  </li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <!-- <a href="https://youtu.be/dNFgRUD2w68/" rel="nofollow">Python and VSCode Text Editor</a> -->
+              <details close="">
+                <summary>Python</summary>
+                <ul>
+                  <li>
+                    <a href="https://www.geeksforgeeks.org/python-programming-language/" rel="nofollow">About</a>
+                  </li>
+                  <li>
+                    <a href="https://drive.google.com/file/d/1fm5ynXiDTm-iNTDJ7Py_5W8IXPJTR0hT/view" rel="nofollow">Notes</a>
+                  </li>
+                  <li>
+                    <a href="https://cfm.ehu.es/ricardo/docs/python/Learning_Python.pdf" rel="nofollow">Books</a>
+                  </li>
+                  <li>
+                    <a href="https://www.youtube.com/watch?v=eTyI-M50Hu4" rel="nofollow">Introduction to Python tutorial</a>
+                  </li>
+                  <li>
+                    <a href="https://www.youtube.com/watch?v=_t2GVaQasRY&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYopZ12" rel="nofollow">Data Structures in Pyhton tutorial</a>
+                  </li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <!-- <a href="https://youtu.be/dNFgRUD2w68/" rel="nofollow">Python and VSCode Text Editor</a> -->
+              <details close="">
+                <summary>Advance DSA</summary>
+                <ul>
+                  <li>
+                    <a href="https://www.unacademy.com/a/free-course-on-number-theory-prime-numbers">Number Theory</a>
+                  </li>
+                  <li>
+                    <a href="https://unacademy.com/a/free-course-on-combinatorics" rel="nofollow">Combinatorics</a>
+                  </li>
+                  <li>
+                    <a href="https://www.youtube.com/watch?v=kHi1DUhp9kM&list=PL_z_8CaSLPWeT1ffjiImo0sYTcnLzo-wY&index=1" rel="nofollow">Recursion</a>
+                  </li>
+                  <li>
+                    <a href="https://www.youtube.com/watch?v=PC0lSbDN2gY" rel="nofollow">Backtracking</a>
+                  </li>
+                  <li>
+                    <a href="https://www.youtube.com/watch?v=GPhZpgPOa1U" rel="nofollow">Game Theory</a>
+                  </li>
+                  <li>
+                    <a href="https://www.unacademy.com/a/free-course-on-disjoint-set-union" rel="nofollow">Disjoint Set Union</a>
+                  </li>
+                  <li>
+                    <a href="https://www.youtube.com/watch?v=xOogmSgym9Y" rel="nofollow">Segment Trees</a>
+                  </li>
+                  <li>
+                    <a href="https://www.youtube.com/watch?v=jMioOe2eTcY" rel="nofollow">Spanning Trees</a>
+                  </li>
+                  <li>
+                    <a href="https://www.unacademy.com/a/free-course-on-graph-theory" rel="nofollow">Graph Theory</a>
+                  </li>
+                  <li>
+                    <a href="https://www.unacademy.com/a/free-course-on-problem-solving-on-graphs" rel="nofollow">Graphs using Problem Solving</a>
+                  </li>
+                  <li>
+                    <a href="https://www.unacademy.com/a/free-course-on-greedy-algorithms" rel="nofollow">Greedy Algorithms</a>
+                  </li>
+                  <li>
+                    <a href="https://www.unacademy.com/a/free-course-on-hashing" rel="nofollow">Hashing</a>
+                  </li>
+                  <li>
+                    <a href="https://www.unacademy.com/a/free-course-on-dp-through-problem-solving" rel="nofollow">Dynamic Programming</a>
+                  </li>
+                  <li>
+                    <a href="https://www.youtube.com/watch?v=dOXfffhl4uI" rel="nofollow">Trie Data Structure</a>
+                  </li>
+                  <li>
+                    <a href="https://www.youtube.com/watch?v=OvRlUTsf6XQ">Bit Manipulation</a>
+                  </li>
+                </ul>
+              </details>
+            </li>
+          </ol>
+        </details>
+      </div>
+      <br>
+    </div>
+
+
+    <div class="page-content">
+      <div class="container-fluid" id="CPP">
+        <h1 class="content-head">Step Three Competitive Coding</h1>
+        <p class="mid-data">
+          <span class="imp">Why Competitive Programming is Important?</span>
+          As you already know that practice makes a man perfect, So inorder to flourish your coding skill and DSA you should practice coding.
+          <span class="imp">Competitive Programming improves your problem solving skills to that extent where you start finding yourself efficient in solving problems.</span>
+          Now Question arise how and from where you can practice coding. Answer is Simple their are various website on which you can make account
+          totally free and you can practice DSA on those sites. <span class="imp">Some of the famous sites are listed below according to there level of difficulty.</span>
+        </p>
+        <br><br>
+        <table class="table table-dark table-hover table-responsive mid-table">
+          <thead>
+            <tr>
+              <th scope="col">&emsp;&emsp;Site Name&emsp;&emsp;</th>
+              <th scope="col">&emsp;&emsp;Level&emsp;&emsp;</th>
+              <th scope="col">&emsp;&emsp;Link&emsp;&emsp;</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>&emsp;&emsp;GeeksForGeeks&emsp;&emsp;</td>
+              <td>&emsp;&emsp;Easy-Medium&emsp;&emsp;</td>
+              <td>&emsp;&emsp;<a href="https://practice.geeksforgeeks.org/topic-tags/?ref=shm">geeksforgeeks</a>&emsp;&emsp;</td>
+            </tr>
+            <tr>
+              <td>&emsp;&emsp;LeetCode&emsp;&emsp;</td>
+              <td>&emsp;&emsp;Easy-Medium&emsp;&emsp;</td>
+              <td>&emsp;&emsp;<a href="https://leetcode.com/explore/">leetcode</a>&emsp;&emsp;</td>
+            </tr>
+            <tr>
+              <td>&emsp;&emsp;Hacker Earth&emsp;&emsp;</td>
+              <td>&emsp;&emsp;Medium&emsp;&emsp;</td>
+              <td>&emsp;&emsp;<a href="https://www.hackerearth.com/practice/">hackerearth</a>&emsp;&emsp;</td>
+            </tr>
+            <tr>
+              <td>&emsp;&emsp;Hacker Rank&emsp;&emsp;</td>
+              <td>&emsp;&emsp;Medium&emsp;&emsp;</td>
+              <td>&emsp;&emsp;<a href="https://www.hackerrank.com/dashboard">hackerrank</a>&emsp;&emsp;</td>
+            </tr>
+            <tr>
+              <td>&emsp;&emsp;CodeChef&emsp;&emsp;</td>
+              <td>&emsp;&emsp;Hard&emsp;&emsp;</td>
+              <td>&emsp;&emsp;<a href="https://www.codechef.com/">codechef</a>&emsp;&emsp;</td>
+            </tr>
+            <tr>
+              <td>&emsp;&emsp;CodeForces&emsp;&emsp;</td>
+              <td>&emsp;&emsp;Hard&emsp;&emsp;</td>
+              <td>&emsp;&emsp;<a href="https://codeforces.com/">codeforces</a>&emsp;&emsp;</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <br><br>
+
+    <div class="page-content">
+      <div class="container-fluid">
+        <p class="mid-data"><span class="imp">Our Last Tip to you is after doing all the about steps.
+            To become interview ready you should go to <a href="https://www.interviewbit.com/practice/">InterviewBit</a>
+            it is an awesome place for student to become interview ready.</span>
+        </p>
+      </div>
+    </div>
+    <br><br><br>
+
+  </section>
+
+  <div id="developer" class="about">
+    <div class="container">
+      <h1 class="text-center">About Us</h1>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <img src="#" class="img-fluid" alt="monke">
+          <!-- <span class="text-justify">S.Web Developer</span> -->
+        </div>
+        <div class="col-lg-8 col-md-8 col-sm-12 desc">
+
+          <h3>Varun Kumar</h3>
+          <p>
+            ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </div>
+
+      <div class="row" style="margin-top: 4rem;">
+        <div class="col-lg-8 col-md-8 col-sm-12">
+
+          <h3>Gulshan Sharma</h3>
+          <p>
+            ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <div class="desc col-lg-4 col-md-4 col-sm-12">
+          <img src="#" class="img-fluid" alt="monke">
+          <!-- <span class="text-justify">S.Web Developer</span> -->
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <div class="contact-form" id="contact" style="padding-bottom:70px;">
+    <div class="container">
+      <form action="mailto:sharmagulshan986@gmail.com" method="post" enctype="text/plain">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <h1>Get in Touch</h1>
+          </div>
+          <div class="col-lg-8 col-md-8 col-sm-12 right">
+            <div class="form-group">
+              <input type="text" class="form-control form-control-lg" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control form-control-lg" placeholder="YourEmail@email.com">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control form-control-lg">
+
+                </textarea>
+            </div>
+            <div class="d-grid gap-2">
+              <button class="btn btn-primary" type="submit" style="background: #F97300;color: #fff;border: 0;">Send</button>
+            </div>
+            <!-- <input type="submit" class="btn btn-secondary" value="Send" name="" > -->
+            <!-- <button type="submit" class="btn btn-secondary">Send</button> -->
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <section id="bottom-container">
+    <footer>
+      <i class="fab fa-twitter fa-2x footer-img"></i>
+      <i class="fab fa-facebook-f fa-2x footer-img"></i>
+      <i class="fab fa-instagram fa-2x footer-img"></i>
+      <i class="fas fa-envelope fa-2x footer-img"></i>
+      <p class="para">© Copyright 2021 CodeTree</p>
+    </footer>
+  </section>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
